@@ -70,7 +70,8 @@ body {
 
 /*================= Top Sellers ==================*/
 
-.top-sellers-title {
+.top-sellers-title,
+.order-buy-title {
   text-align: center;
   font-weight: 600;
   font-size: 24px;
@@ -81,7 +82,8 @@ body {
   margin-bottom: 50px;
 }
 
-.top-sellers-title-sellers {
+.top-sellers-title-sellers,
+.order-buy-title-now {
   color: #111111;
 }
 
@@ -118,7 +120,6 @@ body {
 
 .open-form-buy-button {
   padding: 14px 40px;
-  gap: 14px;
   min-width: 162px;
   height: 50px;
   background: #FD9222;
@@ -128,6 +129,164 @@ body {
   font-size: 18px;
   line-height: 1.22;
   color: #FFFFFF;
-
 }
+
+/*=================0rder buy==============*/
+
+.order-buy {
+  position: relative;
+  width: 609px;
+  height: 1058px;
+  padding: 48px;
+  background-color: #FAFAFA;
+  border-radius: 15px;
+}
+
+.close-order-buy-button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 28px;
+  height: 28px;
+  border: none;
+  background-color: transparent;
+  top: 24px;
+  right: 24px;
+}
+
+.order-buy-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.order-buy-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 160px;
+  height: 196px;
+  padding-top: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 18px;
+  background: #FFFFFF;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+}
+
+.order-buy-img {
+  margin-bottom: 14px;
+}
+
+.order-buy-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 96px;
+  height: 33px;
+  background-color: #FAFAFA;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 100px;
+}
+
+
+.contact-fom-wrapper {
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.contact-form-field-descr {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+
+.contact-form-input-surname,
+.contact-form-input-name {
+  max-width: 246px;
+}
+
+.contact-form-message,
+.contact-form-input {
+  width: 100%; 
+  padding: 22px 24px;
+  border-color: transparent;
+  background-color: transparent;
+  outline: transparent;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  border-radius: 13px;
+}
+
+.contact-form-message {
+  height: 137px;
+  resize: none;
+}
+
+.contact-form-input-name {
+  margin-right: 16px;
+}
+
+.form-send-button {
+  padding: 14px 40px;
+  min-width: 133px;
+  height: 45px;
+  background: #FD9222;
+  border-radius: 100px;
+  border: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #FFFFFF;
+}
+
+.contact-form-input::placeholder
+.contact-form-message::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: rgba(64, 64, 64, 0.3);
+}
+
+.country-code-container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 24px;
+  box-shadow: 2.72246px 0px 0px rgba(0, 0, 0, 0.1);
+  width: 125px;
+}
+
+.contact-form-input-tell {
+  padding-left: 177px;
+}
+
+.code-img {
+  margin-right: 18px;
+}
+
+.mastercard-img {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  
+}
+
+
+
+
+
+
 
