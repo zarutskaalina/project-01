@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <div class="order-buy">
+    <button class="close-order-buy-button" type="button">
+      <svg class="close-order-buy-button-icon" width="14" height="14">
+        <use href="./image/spite.svg#icon-close-modal"></use>
+      </svg>
+    </button>
+    <h3 class="order-buy-title">bUY nOW</h3>
+    <ul class="order-buy-list list">
+      <li class="order-buy-item">
+        <img src="./image/order-buy-1.jpg" alt="chocolate" />
+        <p class="order-buy-text">100 g</p>
+      </li>
+      <li class="order-buy-item">
+        <img src="./image/order-buy-2.jpg" alt="chocolate" />
+        <p class="order-buy-text">200 g</p>
+      </li>
+      <li class="order-buy-item">
+        <img src="./image/order-buy-3.jpg" alt="chocolate" />
+        <p class="order-buy-text">300 g</p>
+      </li>
+    </ul>
+    <form class="contact-form">
+      <div class="contact-fom-wrapper">
+        <label class="contact-form-field-descr" for="user-name"
+          >Personal information</label
+        >
+        <input
+          class="contact-form-input contact-form-input-name"
+          type="text"
+          id="user-name"
+          name="user-name"
+          required
+          pattern="[a-zA-Zа-яА-Яі-Ії-Їґ-Ґє-Є']+"
+          placeholder="Name"
+        />
+
+        <input
+          class="contact-form-input contact-form-input-name"
+          type="text"
+          id="user-surname"
+          name="user-surname"
+          required
+          pattern="[a-zA-Zа-яА-Яі-Ії-Їґ-Ґє-Є']+"
+          placeholder="Surname"
+        />
+      </div>
+      <div class="contact-fom-wrapper">
+        <label class="contact-form-field-descr" for="user-email">Email</label>
+        <input
+          class="contact-form-input"
+          id="user-email"
+          type="email"
+          name="user-email"
+          required
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+          placeholder="Enter your email"
+        />
+      </div>
+      <div class="contact-fom-wrapper">
+        <label class="contact-form-field-descr" for="user-tel"
+          >Phone number</label
+        >
+        <input
+          class="contact-form-input"
+          id="user-tel"
+          type="tel"
+          name="user-tel"
+          required
+          pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+          title="xx-xxx-xx-xx"
+          placeholder="Phone number"
+        />
+        <svg
+          class="ukr-flag"
+          aria-label="flag of Ukraine"
+          width="32"
+          height="24"
+        >
+          <use href="./image/spite.svg#icon-flag"></use>
+        </svg>
+        <p class="phone-code">+380</p>
+        >
+      </div>
+      <div class="contact-fom-wrapper">
+        <label class="contact-form-field-descr" for="user-card"
+          >Card number</label
+        >
+        <input
+          class="contact-form-input"
+          id="user-card"
+          type="text"
+          name="user-card"
+          pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"
+          title="xxxx-xxxx-xxxx-xxxx"
+          placeholder="Enter  card"
+        />
+        <svg
+          class="mastercfrd-icon"
+          aria-label="mastercard logo"
+          width="44"
+          height="30"
+        >
+          <use href="./image/spite.svg#icon-Mastercard"></use>
+        </svg>
+      </div>
+      <div class="user-comment">
+        <label class="contact-form-field-descr" for="user-comment"
+          >Comment</label
+        >
+        <textarea
+          class="contact-form-message"
+          id="user-comment"
+          name="user-comment"
+          placeholder="Enter text"
+        ></textarea>
+      </div>
+      <button class="form-send-button" type="submit">Submit</button>
+    </form>
+  </div>
+</html>

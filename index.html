@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="top-sellers">
+        <h3 class="top-sellers-title">
+          Top<span class="top-sellers-title-sellers"> Sellers</span>
+        </h3>
+        <ul class="top-sellers-images-list list">
+          <li class="top-sellers-image-item">
+            <picture>
+              <!----------desctop------------>
+              <source
+                srcset="
+                  ./image/desktop/top-sellers-desktop-1@1x.jpg 1x,
+                  ./image/desktop/top-sellers-desktop-1@2x.jpg 2x
+                "
+                media="(min-width: 1200px)"
+              />
+              <source
+                srcset="
+                  ./image/desktop/top-sellers-desktop-1@1x.webp,
+                  ./image/desktop/top-sellers-desktop-1@2x.webp
+                "
+                media="(min-width: 1200px)"
+                type="image/webp"
+              />
+              <!---------------tablet---------->
+              <source
+                srcset="
+                  ./image/tablet/top-sellers-tablet-1@1x.jpg 1x,
+                  ./image/tablet/top-sellers-tablet-1@2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./image/tablet/top-sellers-tablet-1@1x.webp 1x,
+                  ./image/tablet/top-sellers-tablet-1@2x.webp 2x
+                "
+                media="(min-width: 768px)"
+                type="image/webp"
+              />
+              <!--------------mobile------------->
+              <source
+                srcset="
+                  ./image/mobile/top-sellers-mobile-1@1x.jpg 1x,
+                  ./image/mobile/top-sellers-mobile-1@2x.jpg 2x
+                "
+                media="(min-width: 320px)"
+              />
+              <source
+                srcset="
+                  ./image/mobile/top-sellers-mobile-1@1x.webp 1x,
+                  ./image/mobile/top-sellers-mobile-1@2x.webp 2x
+                "
+                media="(min-width: 320px)"
+                type="image/webp"
+              />
+              <img
+                class="top-sellers-img"
+                src="./image/mobile/top-sellers-mobile-1@1x.jpg"
+                alt="nut, coffee and chocolate"
+              />
+            </picture>
+          </li>
+          <li class="top-sellers-image-item">
+            <picture>
+              <!------------desctop----------->
+              <source
+                srcset="
+                  ./image/desktop/top-sellers-desktop-2@1x.jpg 1x,
+                  ./image/desktop/top-sellers-desktop-2@2x.jpg 2x
+                "
+                media="(min-width: 1200px)"
+              />
+              <source
+                srcset="
+                  ./image/desktop/top-sellers-desktop-2@1x.webp,
+                  ./image/desktop/top-sellers-desktop-2@2x.webp
+                "
+                media="(min-width: 1200px)"
+                type="image/webp"
+              />
+              <!-----------------tablet------------>
+              <source
+                srcset="
+                  ./image/tablet/top-sellers-tablet-2@1x.jpg 1x,
+                  ./image/tablet/top-sellers-tablet-2@2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./image/tablet/top-sellers-tablet-2@1x.webp 1x,
+                  ./image/tablet/top-sellers-tablet-2@2x.webp 2x
+                "
+                media="(min-width: 768px)"
+                type="image/webp"
+              />
+              <!-----------mobile----------------->
+              <source
+                srcset="
+                  ./image/mobile/top-sellers-mobile-2@1x.jpg 1x,
+                  ./image/mobile/top-sellers-mobile-2@2x.jpg 2x
+                "
+                media="(min-width: 320px)"
+              />
+              <source
+                srcset="
+                  ./image/mobile/top-sellers-mobile-2@1x.webp 1x,
+                  ./image/mobile/top-sellers-mobile-2@2x.webp 2x
+                "
+                media="(min-width: 320px)"
+                type="image/webp"
+              />
+              <img
+                class="top-sellers-img"
+                src="./image/mobile/top-sellers-mobile-2@1x.jpg"
+                alt="chocolate bar 1"
+              />
+            </picture>
+          </li>
+          <li class="top-sellers-image-item">
+            <img
+              class="top-sellers-img"
+              srcset="./image/desktop/top-sellers-desktop-3@2x.jpg 2x"
+              src="./image/desktop/top-sellers-desktop-3@1x.jpg"
+              alt="chocolate bar 2"
+            />
+          </li>
+        </ul>
+        <div class="info-button-container container">
+          <p class="top-sellers-text">
+            Crazy enough chocolate originates from a bean just like the coffee
+            bean called Cacao. Cacao has been around for thousands of years and
+            was first discovered by the Native American tribe called the Mayans.
+          </p>
+          <button class="open-form-buy-button" type="button">Buy now</button>
+        </div>
+      </section>
+
+      <!------------order buy----------->
+
+      
+      <div class="order-buy">
+        <button class="close-order-buy"></button>
+        <h3 class="order-buy-title">bUY nOW</h3>
+        <ul class="order-buy-list list">
+          <li class="order-buy-item">
+            <img src="./image/order-buy-1.jpg" alt="chocolate" />
+            <button type="button">100 g</button>
+          </li>
+          <li class="order-buy-item">
+            <img src="./image/order-buy-2.jpg" alt="chocolate" />
+            <button type="button">200 g</button>
+          </li>
+          <li class="order-buy-item">
+            <img src="./image/order-buy-3.jpg" alt="chocolate" />
+            <button type="button">300 g</button>
+          </li>
+        </ul>
+        <form class="contact-form">
+          <div class="contact-fom-wrapper">
+            <label class="contact-form-field-descr" for="user-name"
+              >Personal information</label
+            >
+            <input
+              class="contact-form-input"
+              type="text"
+              id="user-name"
+              name="user-name"
+              required
+              pattern="[a-zA-Zа-яА-Яі-Ії-Їґ-Ґє-Є']+"
+            />
+            <input
+              class="contact-form-input"
+              type="text"
+              id="user-name"
+              name="user-name"
+              required
+              pattern="[a-zA-Zа-яА-Яі-Ії-Їґ-Ґє-Є']+"
+            />
+          </div>
+          <div class="contact-fom-wrapper">
+            <label class="contact-form-field-descr" for="user-email"
+              >Email</label
+            >
+            <input
+              class="contact-form-input"
+              id="user-email"
+              type="email"
+              name="user-email"
+              required
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+            />
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
