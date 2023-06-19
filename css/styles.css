@@ -58,13 +58,13 @@ body {
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 720px;
+    width: 734px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1200px;
+    width: 1170px;
   }
 }
 
@@ -323,6 +323,11 @@ body {
     display: none;
   }
 
+  .open-form-buy-button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .order-buy {
     width: 311px;
     height: 994px;
@@ -478,11 +483,6 @@ body {
 
   .top-sellers-text {
     min-width: 407px;
-  }
-
-  .info-button-container {
-    padding-left: 15px;
-    padding-right: 15px;
   }
 
   .open-form-buy-button:hover,
